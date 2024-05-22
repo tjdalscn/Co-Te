@@ -1,6 +1,4 @@
 def solution(n):
-    answer = 0
-    
     answer = n+1
     while True:
         if bin(answer).count('1') == bin(n).count('1'):
